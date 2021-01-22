@@ -1,0 +1,78 @@
+.foot {
+    width: 100%;
+    padding-top: 2rem;
+    background-color: $dark;
+    color: $l-text;
+    @media screen and (min-width: 750px){
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    @media screen and (min-width: 1024px){
+        padding: 2rem 5rem 0 5rem;
+        margin-top: 1rem;
+    }
+    .foot-logo-info {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .foot-logo {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media screen and (min-width: 1024px){
+                width: 100%;
+            }
+            img {
+                width: 45%;
+                @media screen and (min-width: 1024px){
+                    width: 40%;
+                }
+            }
+            p {
+                text-transform: uppercase;
+                font-weight: bold;
+                font-family: $alt;
+                width: 50%;
+                font-size: 0.8rem;
+                @media screen and (min-width: 1024px){
+                    width: 45%;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+        @media screen and (min-width: 750px){
+            width: 30%;
+        }
+        @media screen and (min-width: 1024px){
+            width: 20%;
+            p {
+                margin: 0;
+            }
+        }
+    }
+    .contact-info-box, .address-info-box {
+        width: 70%;
+        margin: 2rem auto;
+        .contact-info, .address-info {
+            padding: 0 0 0 25px;
+        }
+        @media screen and (min-width: 750px){
+            width: 25%;
+        }
+    }
+    .copyr {
+        padding: 1rem 0;
+        text-align: center;
+        font-weight: bold;
+        @media screen and (min-width: 750px){
+            width: 100%;
+            padding-top: 3rem;
+        }
+    }
+}

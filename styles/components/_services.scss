@@ -1,0 +1,75 @@
+.services-sec {
+    margin-top: 3rem;
+    padding: 2rem 0;
+    background-image: linear-gradient(to top, #00000099, #00000099), url(../../img/services-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    .services-box {
+        width: 95%;
+        margin: 0 auto;
+        color: $l-text;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        @media screen and (min-width: 1024px){
+            width: 80%;
+        }
+        .services-text {
+            text-align: justify;
+            padding: 1rem;
+            @media screen and (min-width: 1024px){
+                padding: 0;
+            }
+        }
+        .services-item-box {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            @media screen and (min-width: 1024px){
+                flex-flow: row wrap;
+                justify-content: space-between;
+            }
+            .services-item {
+                width: 90%;
+                margin: 0 auto;
+                margin-top: 2rem;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                justify-content: center;
+                @media screen and (min-width: 750px){
+                    width: 60%;
+                }
+                @media screen and (min-width: 1024px){
+                    width: 45%;
+                    margin: 2rem 0 0 0;
+                    text-align: center;
+                }
+                .services-icon {
+                    width: 25%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                h3 {
+                    width: 50%;
+                    font-size: 1.5rem;
+                    text-align: center;
+                    @media screen and (min-width: 1024px){
+                        font-size: 1.3rem;
+                    }
+                }
+                p {
+                    width: 90%;
+                    text-align: center;
+                    @media screen and (min-width: 1024px){
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

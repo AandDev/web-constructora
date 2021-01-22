@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="../img/gv-favicon.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/css/style.css">
+    <title>Contacto | Grupo Vidriero</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="top" id="top">
+        <nav class="nav-bar" id="nav-bar">
+            <div class="menu">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../img/svg/logotipo.svg" alt="Logo" class="logo-img">
+                        <p class="logo-name">Grupo Vidriero</p>
+                    </a>
+                </div>
+                <ul class="menu-links">
+                    <li class="link">
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li class="link">
+                        <a href="empresa.html">Empresa</a>
+                    </li>
+                    <li class="link">
+                        <a href="obras.html">Obras</a>
+                    </li>
+                    <li class="link">
+                        <a href="contacto.html" class="current-page">Contacto</a>
+                    </li>
+                </ul>
+                <div class="menu-icon">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="banner banner-contacto">
+            <div class="banner-title">
+                <h1>Contactanos</h1>
+            </div>
+        </div>
+    </header>
+    <!-- CONTENT -->
+    <main class="content">
+        <!-- CONTACTO -->
+        <section class="contact-sec container">
+            <div class="contact-box">
+                <div class="subtitle">
+                    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat.</h2>
+                </div>
+                <div class="form-box">
+                    <form action="contacto.php" method="POST">
+                        <input type="text" class="input-item" name="nombre" placeholder="Nombre y Apellido" required>
+                        <input type="email" class="input-item" name="email" placeholder="Correo eletrónico" required>
+                        <input type="text" class="input-item" name="telefono" placeholder="Teléfono" required>
+                        <input type="text" class="input-item" name="asunto" placeholder="Asunto" required>
+                        <textarea name="mensaje" class="input-item" placeholder="Escriba su mensaje aquí" cols="30" rows="10" required></textarea>
+                        <button class="btn-contact" type="submit">Enviar</button>
+                    </form>
+                </div>
+                <figure class="contact-img">
+                    <img src="../img/more-info.png" alt="contact">
+                </figure>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="foot">
+        <div class="foot-logo-info">
+            <figure class="foot-logo">
+                <img src="../img/svg/logotipo.svg" alt="Logo">
+                <p>Grupo Vidriero</p>
+            </figure>
+            <p>Esta es una empresa perteneciente
+                al BiaGroup, donde tambien se encuentra el Bianquette Hostel
+            </p>
+        </div>
+        <div class="contact-info-box">
+            <ul class="contact-info">
+                <li>Tlf: +00000000</li>
+                <li>Tlf: +00000000</li>
+                <li>Email: info@biawindows.com</li>
+            </ul>
+        </div>
+        <div class="address-info-box">
+            <ul class="address-info">
+                <li>Address, num street</li>
+                <li>State, Country</li>
+                <li>More address info</li>
+            </ul>
+        </div>
+        <div class="copyr">&copy; 2020 Grupo Vidriero || &copy; 2020 And webworks.</div>
+    </footer>
+
+    <script src="../script/app.js"></script>
+</body>
+</html>

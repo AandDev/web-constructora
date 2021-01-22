@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve" width="512px" height="512px"><g><g>
+	<g>
+		<path d="M448,464V8c0-4.418-3.582-8-8-8H40c-4.418,0-8,3.582-8,8v456H0v16h480v-16H448z M232,464H48V16h184V464z M432,40h-16    c-2.122,0-4.156,0.844-5.656,2.344l-15.872,15.872c-12.515-6.884-28.045-4.878-38.4,4.96c-3.726,3.207-5.86,7.884-5.84,12.8    c1.204,6.582,5.21,12.316,10.976,15.712c2.149,1.697,4.21,3.502,6.176,5.408c2.048,2.048,3.8,4.208,5.416,6.176    c3.392,5.766,9.124,9.772,15.704,10.976h0.704c4.671-0.212,9.051-2.328,12.12-5.856c10.36-10.425,12.287-26.566,4.672-39.136    L419.312,56H432v408H248V16h184V40z M390.021,97.123c-0.002,0.002-0.003,0.003-0.005,0.005c-0.288,0.288-0.536,0.512-0.744,0.696    c-1.444-1.479-2.809-3.033-4.088-4.656c-2.029-2.565-4.192-5.022-6.48-7.36c-2.341-2.282-4.794-4.444-7.352-6.48    c-1.624-1.279-3.18-2.641-4.664-4.08c0.184-0.208,0.408-0.464,0.704-0.752c6.329-6.047,16.295-6.047,22.624,0    C396.266,80.743,396.268,90.874,390.021,97.123z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="264" y="224" width="16" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="200" y="224" width="16" height="32" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="321.362" y="112.008" transform="matrix(0.7071 -0.7071 0.7071 0.7071 15.894 278.3872)" width="45.256" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="305.366" y="96.008" transform="matrix(0.7071 -0.7071 0.7071 0.7071 22.5227 262.3904)" width="45.256" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="337.365" y="128.008" transform="matrix(0.7071 -0.7071 0.7071 0.7071 9.2676 294.3897)" width="45.256" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+	</g>
+</g></g> </svg>

@@ -1,0 +1,59 @@
+// Variables
+
+// Color
+
+$m-blue: #1C7EBD;
+$l-blue: #6EB8E9;
+$d-blue: #00263F;
+$m-gray: #A8A5A0;
+$l-text: #f1f1f1;
+$d-text: #444444;
+$light: #ffffff;
+$dark: #222222;
+$l-shadow: #afafaf;
+$d-shadow: #666666;
+
+// Fonts
+
+$title: 'Roboto', sans-serif;
+$general: 'Ubuntu', sans-serif;
+$alt: 'Poppins', sans-serif;
+
+// General
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: $d-text;
+    font-family: $general;
+    line-height: 1.6;
+    h1, h2, h3, h4 {
+        font-family: $title;
+    }
+    .subtitle {
+        color: $m-blue;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+@import "components/header";
+@import "components/about";
+@import "components/obras-sec";
+@import "components/services";
+@import "components/footer";
+@import "components/empresa";
+@import "components/obras";
+@import "components/contact";
